@@ -6,7 +6,7 @@ Release:	%mkrel 1
 Summary:	Puzzle game about inverting apple colors
 Group:		Games/Puzzles
 License:	GPLv3+
-URL:		http://qt-apps.org/content/show.php/ipQalc?content=107286
+URL:		http://qt-apps.org/content/show.php/Invert+Apple?content=146173
 Source0:	%{oname}-%{version}.tar.gz
 Source1:	%{oname}-icon.png
 Patch0:		InvertApple-1.0-datapath.patch
