@@ -1,0 +1,33 @@
+diff -urN InvertApple/main.cpp InvertApple-patched/main.cpp
+--- InvertApple/main.cpp	2011-10-26 20:05:32.000000000 +1100
++++ InvertApple-patched/main.cpp	2012-03-30 15:14:40.895451082 +1100
+@@ -20,7 +20,7 @@
+ 
+ 
+     if (translator.load(QString("invertApple_") + locale)==false){
+-        translator.load(QString("/usr/share/games/invertApple/invertApple_") + locale);
++        translator.load(QString("/usr/share/games/invertapple/invertApple_") + locale);
+     }
+     app.installTranslator(&translator);
+ 
+diff -urN InvertApple/record.cpp InvertApple-patched/record.cpp
+--- InvertApple/record.cpp	2011-10-26 23:30:26.000000000 +1100
++++ InvertApple-patched/record.cpp	2012-03-30 15:14:26.887543394 +1100
+@@ -13,7 +13,7 @@
+     sRecord r;
+ 
+     QDomDocument xmlDoc("mydocument");
+-    QFile file("records.xml");
++    QFile file("/var/games/invertapple/records.xml");
+     if (!file.open(QIODevice::ReadOnly)) return tableRecord;
+     if (!xmlDoc.setContent(&file,&errMsg,&errLine,&ErrCol)){
+         qDebug() << "error pars  " << errMsg << errLine << ErrCol;
+@@ -119,7 +119,7 @@
+ 
+     // Восоздаем новую структуру
+     QDomDocument xmlDoc("mydocument");
+-    QFile file("records.xml");
++    QFile file("/var/games/invertapple/records.xml");
+ 
+     if (!file.open(QIODevice::ReadOnly)) return 0;
+     if (!xmlDoc.setContent(&file,&errMsg,&errLine,&ErrCol)){
