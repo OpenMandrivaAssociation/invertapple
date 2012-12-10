@@ -72,3 +72,10 @@ EOF
 %dir %{_var}/games/%{name}
 %attr(666,root,root) %{_var}/games/%{name}/records.xml
 
+
+
+%changelog
+* Fri Mar 30 2012 Andrey Bondrov <abondrov@mandriva.org> 1.0-1
++ Revision: 788292
+- imported package invertapple
+
