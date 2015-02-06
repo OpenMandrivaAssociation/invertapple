@@ -2,7 +2,7 @@
 
 Name:		invertapple
 Version:	1.0
-Release:	%mkrel 1
+Release:	2
 Summary:	Puzzle game about inverting apple colors
 Group:		Games/Puzzles
 License:	GPLv3+
