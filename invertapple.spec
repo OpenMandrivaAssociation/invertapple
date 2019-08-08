@@ -8,6 +8,7 @@ URL:		http://dansoft.krasnokamensk.ru/more.html?id=1015
 Source0:	https://bitbucket.org/admsasha/invertapple/downloads/%{name}-%{version}.tar.gz
 
 BuildRequires:  qt5-linguist-tools
+BuildRequires:  qt5-macros
 BuildRequires:  qmake5
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Gui)
