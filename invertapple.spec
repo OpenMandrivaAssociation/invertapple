@@ -21,6 +21,7 @@ field to green.
 %prep
 %setup -q
 
+%build
 %qmake_qt5
 %make
 
