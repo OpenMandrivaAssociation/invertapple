@@ -4,7 +4,7 @@ Release:	%mkrel 1
 Summary:	Puzzle game about inverting apple colors
 Group:		Games/Puzzles
 License:	GPLv3+
-URL:		http://dansoft.krasnokamensk.ru/more.html?id=1015
+URL:		https://dansoft.krasnokamensk.ru/more.html?id=1015
 Source0:	https://bitbucket.org/admsasha/invertapple/downloads/%{name}-%{version}.tar.gz
 
 BuildRequires:  qt5-linguist-tools
